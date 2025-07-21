@@ -1,0 +1,47 @@
+{
+  "name": "MetaQueries (React)",
+  "id": "goshposh-metaqueries-react-datasource",
+  "type": "datasource",
+
+  "metrics": true,
+  "mixed": true,
+  "hiddenQueries": true,
+
+  "queryOptions": {
+    "minInterval": true
+  },
+
+  "info": {
+    "version": "1.0.0",
+    "description": "Advanced meta-query datasource for Grafana built with React. Enables time-shift comparisons, moving averages, and arithmetic operations between different metrics. This is the modern React version of the MetaQueries plugin with improved UI and enhanced validation.",
+    "author": {
+      "name": "Gaurav Shah",
+      "url": "https://github.com/link001124/MetaQueries"
+    },
+    "keywords": [
+      "Meta Queries",
+      "Moving Average", 
+      "Time Shift",
+      "Week over Week",
+      "Arithmetic",
+      "React",
+      "Modern UI",
+      "Meta Analytics"
+    ],
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/link001124/MetaQueries#readme"},
+      {"name": "Documentation", "url": "https://github.com/link001124/MetaQueries/blob/master/README-React.md"},
+      {"name": "Migration Guide", "url": "https://github.com/link001124/MetaQueries/blob/master/MIGRATION-GUIDE.md"}
+    ],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "screenshots": [],
+    "updated": "2025-07-21"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=8.0.0",
+    "plugins": []
+  }
+}
